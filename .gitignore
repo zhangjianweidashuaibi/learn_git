@@ -1,0 +1,40 @@
+# IDEA 配置文件（整个.idea文件夹都忽略）
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Python 相关
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env/
+*.egg-info/
+*.egg
+*.whl
+
+# 大体积数据文件（你的项目里的Data、图片等）
+Data/
+images_preprocessed/
+images_standard/
+chunk_results/
+ocr_results/
+integrated_multimodal/
+ocrtext_image_embeddings/
+*.zip
+*.rar
+*.tar.gz
+*.7z
+*.p
+
+# 其他编辑器配置
+.claude/
+.cursor/
+
+# 系统文件
+.DS_Store
+Thumbs.db
